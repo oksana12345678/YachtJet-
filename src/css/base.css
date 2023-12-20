@@ -1,4 +1,12 @@
 body {
-  font-family: 'Inter' sans-serif;
+  font-family: Inter, sans-serif;
   color: #fbfbfb;
+}
+.hero,
+.about-us,
+.our-yachts,
+.advantages,
+.rent-a-yacht,
+.reviews {
+  background-color: #0e1823;
 }
