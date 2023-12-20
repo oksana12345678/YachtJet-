@@ -1,0 +1,116 @@
+.about-us-section {
+  padding-left: 20px;
+  padding-right: 20px;
+  width: 375px;
+  display: flex;
+  justify-content: center;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+@media screen and (min-width: 768px) {
+  .about-us-section {
+    padding-left: 32px;
+    padding-right: 32px;
+    width: 768px;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .about-us-section {
+    padding-left: 50px;
+    padding-right: 50px;
+    width: 1280px;
+  }
+}
+
+.about-us-container {
+  border-radius: 24px;
+  background: #fbfbfb;
+  display: flex;
+  max-width: 335px;
+  padding: 40px 20px 335px 20px;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 40px;
+}
+
+@media screen and (min-width: 768px) {
+  .about-us-container {
+    max-width: 704px;
+    padding: 50px 136px 244px 32px;
+    gap: 50px;
+  }
+}
+
+@media screen and (min-width: 1280px) {
+  .about-us-container {
+    max-width: 1180px;
+    height: 675px;
+    padding: 50px 50px 415px 50px;
+    justify-content: center;
+    gap: 189px;
+    flex-shrink: 0;
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
+}
+
+.about-us-title {
+  color: #1b414b;
+  font-family: Inter;
+  font-size: 28px;
+  font-weight: 500;
+  line-height: 1;
+  letter-spacing: 0.02em;
+  max-width: 295px;
+}
+
+@media screen and (min-width: 768px) {
+  .about-us-title {
+    max-width: 536px;
+    font-size: 48px;
+  }
+}
+
+.about-us-text-content {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.about-us-first-p {
+  color: #1b414b;
+  font-family: Inter;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 1;
+  letter-spacing: 0.02em;
+  max-width: 295px;
+}
+
+@media screen and (min-width: 768px) {
+  .about-us-first-p {
+    max-width: 389px;
+    font-size: 23px;
+  }
+}
+
+.about-us-second-p {
+  color: #040306;
+  font-family: Inter;
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 1.16;
+  letter-spacing: 0.02em;
+  opacity: 0.4;
+  max-width: 295px;
+}
+
+@media screen and (min-width: 768px) {
+  .about-us-second-p {
+    max-width: 385px;
+    font-size: 13px;
+    line-height: 1.15;
+  }
+}
