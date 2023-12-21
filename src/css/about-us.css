@@ -6,22 +6,7 @@
   justify-content: center;
   margin-left: auto;
   margin-right: auto;
-}
-
-@media screen and (min-width: 768px) {
-  .about-us-section {
-    padding-left: 32px;
-    padding-right: 32px;
-    width: 768px;
-  }
-}
-
-@media screen and (min-width: 768px) {
-  .about-us-section {
-    padding-left: 50px;
-    padding-right: 50px;
-    width: 1280px;
-  }
+  background-color: #0e1823;
 }
 
 .about-us-container {
@@ -34,26 +19,7 @@
   flex-direction: column;
   align-items: flex-start;
   gap: 40px;
-}
-
-@media screen and (min-width: 768px) {
-  .about-us-container {
-    max-width: 704px;
-    padding: 50px 136px 244px 32px;
-    gap: 50px;
-  }
-}
-
-@media screen and (min-width: 1280px) {
-  .about-us-container {
-    max-width: 1180px;
-    padding: 50px 50px 415px 50px;
-    justify-content: center;
-    gap: 150px;
-    flex-shrink: 0;
-    flex-direction: row;
-    flex-wrap: wrap;
-  }
+  position: relative;
 }
 
 .about-us-title {
@@ -64,13 +30,6 @@
   line-height: 1;
   letter-spacing: 0.02em;
   max-width: 295px;
-}
-
-@media screen and (min-width: 768px) {
-  .about-us-title {
-    max-width: 536px;
-    font-size: 48px;
-  }
 }
 
 .about-us-text-content {
@@ -89,13 +48,6 @@
   max-width: 295px;
 }
 
-@media screen and (min-width: 768px) {
-  .about-us-first-p {
-    max-width: 389px;
-    font-size: 23px;
-  }
-}
-
 .about-us-second-p {
   color: #040306;
   font-family: Inter;
@@ -107,10 +59,61 @@
   max-width: 295px;
 }
 
+.about-us-img {
+  position: absolute;
+  border-radius: 50%;
+  top: 95%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 100%;
+}
+
 @media screen and (min-width: 768px) {
+  .about-us-section {
+    padding-left: 32px;
+    padding-right: 32px;
+    width: 768px;
+  }
+  .about-us-section {
+    padding-left: 50px;
+    padding-right: 50px;
+    width: 1280px;
+  }
+  .about-us-container {
+    max-width: 704px;
+    padding: 50px 136px 244px 32px;
+    gap: 50px;
+  }
+  .about-us-title {
+    max-width: 536px;
+    font-size: 48px;
+  }
+  .about-us-first-p {
+    max-width: 389px;
+    font-size: 23px;
+  }
   .about-us-second-p {
     max-width: 385px;
     font-size: 13px;
     line-height: 1.15;
+  }
+
+  .about-us-img {
+    top: 105%;
+  }
+}
+
+@media screen and (min-width: 1280px) {
+  .about-us-container {
+    max-width: 1180px;
+    padding: 50px 50px 415px 50px;
+    justify-content: center;
+    gap: 150px;
+    flex-shrink: 0;
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
+  .about-us-img {
+    top: 85%;
   }
 }

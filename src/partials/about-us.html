@@ -15,11 +15,30 @@
         Book now and get ready for an unforgettable adventure on the high seas.
       </p>
     </div>
-    <picture>
-      <source srcset="1x, 2x" media="(min-width: 1280px)" />
-      <source srcset="1x, 2x" media="(min-width: 768px)" />
-      <source srcset="1x, 2x" media="(max-width: 768px)" />
-      <img src="" alt="yacht photo" />
+
+    <picture class="about-us-img">
+      <source
+        srcset="
+          ../img/desktop-img/about-desktop.jpg    1x,
+          ../img/desktop-img/about-desktop@2x.jpg 2x
+        "
+        media="(min-width: 1280px)"
+      />
+      <source
+        srcset="
+          ../img/tablet-img/about-tablet.jpg    1x,
+          ../img/tablet-img/about-tablet@2x.jpg 2x
+        "
+        media="(min-width: 768px)"
+      />
+      <source
+        srcset="
+          ./img/mobile-img/about-mobile.jpg    1x,
+          ./img/mobile-img/about-mobile@2x.jpg 2x
+        "
+        media="(max-width: 768px)"
+      />
+      <img src="./img/mobile-img/about-mobile.jpg" alt="yacht photo" />
     </picture>
   </div>
 </section>
