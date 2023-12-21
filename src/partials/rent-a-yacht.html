@@ -1,0 +1,50 @@
+<section class="rent-a-yacht">
+  <div class="rent-form-container">
+    <h2 class="rent-yacht-title">Rent a yacht now</h2>
+
+    <form class="rent-form">
+      <div class="rent-yacht-input-wrapper">
+        <input
+          class="rent-yacht-input"
+          name="user-name"
+          type="text"
+          placeholder="Full Name"
+          pattern="[a-zA-Zа-яА-ЯіІїЇєЄґҐʼ]+"
+          required
+        />
+      </div>
+
+      <div class="rent-yacht-input-wrapper">
+        <input
+          class="rent-yacht-input"
+          name="user-email"
+          type="email"
+          placeholder="Email"
+          required
+        />
+      </div>
+
+      <div class="rent-yacht-input-wrapper">
+        <input
+          class="rent-yacht-input"
+          name="user-tel"
+          type="tel"
+          placeholder="Phone number"
+          pattern="[0-9]{3}-[0-9]{3}-[0-9]{2}-[0-9]{2}"
+          required
+        />
+      </div>
+
+      <div class="rent-yacht-textarea-wrapper">
+        <textarea
+          class="rent-yacht-textarea"
+          name="user-comment"
+          placeholder="Comment"
+        >
+        </textarea>
+      </div>
+
+      <button class="button-rent-form" type="submit">Send</button>
+    </form>
+  </div>
+</section>
