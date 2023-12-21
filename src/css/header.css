@@ -9,17 +9,10 @@
     padding: 12px 0px;     
 }
  .header{
-<<<<<<< Updated upstream
     position: absolute;    
    left:50%;
    margin-right: -50%;
    transform: translate(-50%, 0);
-=======
-    position: fixed;  
-    left: 50%;  
-
-   
->>>>>>> Stashed changes
 }
 .head-menu{
     display: flex;
@@ -43,7 +36,7 @@
 @media screen and  (max-width:767px) {
     .logo{        
 font-size: 14px;
-letter-spacing: -0.42px;
+letter-spacing: -0.023em;
     }  
     .navigation, .header-social{
         display: none;
@@ -78,7 +71,7 @@ letter-spacing: -0.42px;
 @media screen and (min-width:768px) {
     .logo{
         font-size: 20px;        
-        letter-spacing: -0.6px;
+        letter-spacing: -0.03em;
         margin-right: 109px;
     }
     .header{
@@ -88,7 +81,6 @@ letter-spacing: -0.42px;
     }
     .head-menu{
         padding: 0px 28px;
-        margin: 0 auto;
     }
     .burger{
         display: none;
@@ -158,7 +150,6 @@ border-radius: 8px;
     }
     .head-menu{
         padding: 0px 30px;
-
     }
     .logo{        
         margin-right: 296px;
