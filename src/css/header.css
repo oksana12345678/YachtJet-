@@ -6,11 +6,11 @@
     font-style: normal;
     font-weight: 500;
     line-height: normal;  
-    padding: 12px 0px;     
+        
 }
 .logo-nav{
     display: flex;
-    padding: 12px 0;
+    padding: 12px 0px;
 }
  .header{
     position: absolute;    
