@@ -8,6 +8,10 @@
     line-height: normal;  
     padding: 12px 0px;     
 }
+.logo-nav{
+    display: flex;
+    padding: 12px 0;
+}
  .header{
     position: absolute;    
    left:50%;
