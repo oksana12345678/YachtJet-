@@ -30,7 +30,7 @@
 }
 
 /* 320===========   */
-@media screen and ( max-width:374px){
+@media screen and ( max-width:375px){
 
     .header{
         width:320px;
