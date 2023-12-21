@@ -7,6 +7,11 @@
     border-radius: 24px 24px 0px 0px;
 }
 
+.footer-container {
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
 .footer-nav {
     display: flex;
     flex-wrap: wrap;
@@ -23,7 +28,7 @@
     font-style: normal;
     font-weight: 500;
     line-height: normal;
-    letter-spacing: -0.42px;
+    letter-spacing: -0.03em;
     margin-left: 30px;
 }
 
@@ -51,7 +56,7 @@
 
 .footer-social-links {
 display: flex;
-margin: auto;
+margin: 0 auto;
 gap: 8px;
 }
 
@@ -71,7 +76,7 @@ font-weight: 400;
 line-height: 1.08;
 letter-spacing: 0.02em;
 width: 279px;
-margin: auto;
+margin: 0 auto;
 margin-top: 42px;
 }
 
@@ -95,6 +100,11 @@ margin-top: 42px;
     max-width: 768px;
     padding-top:50px;
     padding-bottom: 20px;
+}
+
+.footer-container {
+    padding-left: 16px;
+    padding-right: 16px;
 }
 
 .footer-nav{
@@ -136,7 +146,6 @@ margin-top: 42px;
     width: 91px;
 }
 
-
 }
 
 
@@ -146,9 +155,15 @@ margin-top: 42px;
         padding-top: 50px;
         padding-bottom: 20px;
     }
+
+
+.footer-container {
+    padding-left: 25px;
+    padding-right: 25px;
+}
 .footer-logo{
     font-size: 20px;
-    letter-spacing: -0.6px;
+    letter-spacing: -0.03em;
 }
 
 .footer-button{
@@ -161,6 +176,15 @@ margin-top: 42px;
 
 .footer-text-two{
     font-size: 14px;
+}
+
+.footer-button:hover {
+   background:  #FBFBFB;
+   color: #1B414B;
+}
+
+.footer-icon:hover {
+    fill: rgba(251, 251, 251, 0.8);
 }
     
 }
