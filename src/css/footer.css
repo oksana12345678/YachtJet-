@@ -1,5 +1,5 @@
 .footer-yht {
-    max-width: 375px;
+    max-width: 355px;
     height: auto;
     padding-top: 40px;
     padding-bottom: 20px;
@@ -8,8 +8,8 @@
 }
 
 .footer-container {
-    padding-left: 10px;
-    padding-right: 10px;
+    padding-left: 30px;
+    padding-right: 30px;
 }
 
 
@@ -18,7 +18,7 @@
     flex-wrap: wrap;
     flex-direction: row;
     align-items: first baseline;
-    gap: 80px 37px;
+    gap: 80px 27px;
    
 }
 
@@ -84,7 +84,7 @@ line-height: 1.08;
 letter-spacing: 0.02em;
 width: 279px;
 margin: 0 auto;
-margin-top: 42px;
+margin-top: 40px;
 }
 
 .footer-text-two {
@@ -110,14 +110,15 @@ margin-top: 42px;
 }
 
 .footer-container {
-    padding-left: 16px;
-    padding-right: 16px;
+    padding-left: 48px;
+    padding-right: 48px;
 }
 
 .footer-nav{
     display: flex;
     flex-wrap: nowrap;
-    justify-content: space-around;
+    justify-content: space-between;
+    align-items: center;
  
 }
 
