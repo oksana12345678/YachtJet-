@@ -10,8 +10,12 @@
 }
 .logo-nav{
     display: flex;
-    padding: 12px 0px;
+    /* padding: 12px 0px; */
     align-items: center;
+}
+.logo-height{
+    padding: 12px 0px;
+    display: flex;  
 }
  .header{
     position: absolute;    
@@ -97,10 +101,14 @@ letter-spacing: -0.023em;
     .navigation{
         display: flex;
         gap: 8px;  
-        align-items: center;      
+        align-items: center;    
+            
     }
+    /* .heder_list{
+        padding: 19px 0;
+    } */
     .heder-link{
-        padding: 15px 25px 15px 24px;
+padding: 15px 25px 15px 24px;
         /* color: #FBFBFB; */
 text-align: center;
 font-family: Inter;
