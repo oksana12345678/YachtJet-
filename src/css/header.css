@@ -160,12 +160,3 @@ border-radius: 8px;
         margin-right: 296px;
     }
 }
-/* 1440==============  */
-@media screen and (min-width:1440px) {
-    .header{
-        width: 1240px;
-    }
-    .logo{        
-        margin-right: 375px;
-    }
-}
