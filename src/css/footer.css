@@ -181,6 +181,17 @@ padding: 15px 24px 15px 24px;
 
 }
 
+.footer-link:hover, .footer-link:focus {
+background: #FBFBFB;
+color:#1B414B;
+}
+
+.footer-link 
+    {
+transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+        }
+
+
 .footer-text-one{
     font-size: 32px;
 }
