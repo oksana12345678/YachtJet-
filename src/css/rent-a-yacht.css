@@ -101,8 +101,7 @@
 
  @media screen and (min-width: 768px) {
 
-    
-    {
+    .rent-form-container {
 max-width: 472px;
 padding-top: 150px;
  }
@@ -146,22 +145,35 @@ margin-bottom: 50px;
           /* ========= DESKTOP ========== */
 @media only screen and (min-width: 1280px) {
    
+ .rent-a-yacht {
+    display: flex;
+    flex-direction: row-reverse;
+ }
+ 
 .rent-form-container {
         max-width: 375px;
         padding-top: 150px;
     }
 
+
 .rent-pict {
         width: 658px;
         height: 534px;
         flex-shrink: 0;
-        margin-right: 50px;
+        margin-right: 25px;
         margin-left: 50px;
+        margin-top: 150px;
 background: url(<path-to-image>), lightgray -69.719px -6.76px / 126.097% 109.875% no-repeat;    
 border-radius: 24px;
     overflow: hidden;
     outline: transparent;
 }
 
+
+.button-rent-form:hover,
+.button-rent-form:focus {
+    color: #1B414B;
+    background: #FBFBFB;
+}
 
 }
