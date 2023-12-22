@@ -1,0 +1,162 @@
+/* all==============   */
+
+.logo{
+    color: #1B414B;
+    font-family: Inter;    
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;  
+        
+}
+.logo-nav{
+    display: flex;
+    padding: 12px 0px;
+    align-items: center;
+}
+ .header{
+    position: absolute;    
+   left:50%;
+   margin-right: -50%;
+   transform: translate(-50%, 0);
+}
+.head-menu{
+    display: flex;
+    border-radius: 8px;
+    border: 1px solid #FBFBFB;
+    background: #FBFBFB;
+    margin: 0 auto;
+    align-items: center;
+    justify-content: space-between;
+}
+
+/* 320===========   */
+@media screen and ( max-width:375px){
+
+    .header{
+        width:320px;
+    }
+}
+/* 375 mobi============  */
+
+@media screen and  (max-width:767px) {
+    .logo{        
+font-size: 14px;
+letter-spacing: -0.023em;
+    }  
+    .navigation, .header-social{
+        display: none;
+    }
+    .burger{
+        display: flex;
+        stroke: #1B414B;
+        border: none;
+        padding: 0;
+        background-color: transparent;
+        transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    }
+    .burger:active{
+        stroke: #062730;
+    }
+
+    .header{
+        padding: 20px;
+    }
+    .head-menu{
+        padding: 0px 20px;        
+    }
+}
+
+@media screen and ( min-width:375px){
+
+    .header{
+        width:375px;
+    }
+}
+/* 768 tablet============   */
+@media screen and (min-width:768px) {
+    .logo{
+        font-size: 20px;        
+        letter-spacing: -0.03em;
+        margin-right: 109px;
+    }
+    .header{
+        width:704px;
+        padding: 32px 0;
+        
+    }
+    .head-menu{
+        padding: 0px 28px;
+    }
+    .burger{
+        display: none;
+    }
+    .header-social{
+        display: flex;
+        gap:8px;
+    }
+    .navigation{
+        display: flex;
+        gap: 8px;  
+        align-items: center;      
+    }
+    .heder-link{
+        padding: 15px 25px 15px 24px;
+        /* color: #FBFBFB; */
+text-align: center;
+font-family: Inter;
+font-size: 9px;
+font-style: normal;
+font-weight: 400;
+line-height: 0.12em;
+text-transform: uppercase;
+background-color: rgba(27, 65, 75, 0.50);
+border-radius: 8px;
+    }
+    .logo-nav{
+        display: flex;
+           }
+    .accent-link:hover, .accent-link:focus {
+        background-color: #1B414B;
+    }
+    .accent-link{transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    }
+    .social_phon{
+        width: 24px;
+        height: 24px;
+        border-radius: 50px;
+        display: flex;
+        align-items: center; 
+        justify-content: center;
+        background-color:#FBFBFB;
+       
+    }
+           
+    
+    .icon-contact{
+        display: flex;  
+        fill:#1B414B;      
+        border-radius: 50px;
+        display: flex;
+        align-items: center; 
+        justify-content: center;
+        width: 24px;
+        height: 24px;
+        transition:  fill 250ms cubic-bezier(0.4, 0, 0.2, 1); 
+    }
+    .icon-contact:hover,  .icon-contact:focus{
+        fill: #062730;
+    }   
+}
+/* 1280==========   */
+@media screen and (min-width:1280px) {
+    .header{
+        width: 1080px;
+        padding-top: 32px;
+    }
+    .head-menu{
+        padding: 0px 30px;
+    }
+    .logo{        
+        margin-right: 296px;
+    }
+}
