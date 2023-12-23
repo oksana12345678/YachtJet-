@@ -1,12 +1,6 @@
 const form = document.querySelector('#form');
 const launchBtn = document.querySelector('#launch-btn');
-const goToFormButton = document.querySelector('#go-to-form-btn');
 const userEmailField = document.querySelector('#user-email');
-
-goToFormButton.addEventListener('click', function (e) {
-  e.preventDefault();
-  form.scrollIntoView();
-});
 
 function clearFormFields() {
   const fieldName = form.querySelector('input[type="text"]');
@@ -15,9 +9,8 @@ function clearFormFields() {
 
   fieldName.value = '';
   fieldEmail.value = '';
+  fieldTel.value = '';
 }
-
-addGooseElement();
 
 form.addEventListener('submit', e => {
   e.preventDefault();
@@ -30,16 +23,5 @@ form.addEventListener('submit', e => {
     method: 'POST',
     headers: { 'Content-Type': 'application/x-www-form-urlencoded' },
     body: new URLSearchParams(formData).toString(),
-  })
-    .then(() => {
-      showGooseAnim();
-
-      launchBtn.removeAttribute('disabled');
-      clearFormFields();
-
-      setTimeout(() => {
-        launchBtn.style.opacity = '1';
-      }, 4000);
-    })
-    .catch(error => console.log('Sending form failed'));
+  });
 });
