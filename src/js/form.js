@@ -19,9 +19,6 @@ form.addEventListener('submit', e => {
   launchBtn.setAttribute('disabled', true);
   launchBtn.style.opacity = '0.7';
 
-  fetch('/', {
-    method: 'POST',
-    headers: { 'Content-Type': 'application/x-www-form-urlencoded' },
-    body: new URLSearchParams(formData).toString(),
-  });
+  var form = document.querySelector('#form');
+  form.reset();
 });
