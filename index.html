@@ -17,7 +17,7 @@
     <title>YachtJet</title>
     
     <script type="module" crossorigin src="/YachtJet-/commonHelpers.js"></script>
-    <link rel="stylesheet" href="/YachtJet-/assets/index-b2c95194.css">
+    <link rel="stylesheet" href="/YachtJet-/assets/index-6f507bc7.css">
   </head>
   <body>
     <header class="header">
@@ -72,49 +72,117 @@
       
       
       
-      <section class="reviews">
+      <section class="reviews" id="reviews">
   <div class="reviews-container">
-    <h2 class="reviews-title">
-      YachtJet take pride in providing the best possible service and experience
-      to our customers
-    </h2>
-    <p class="reviews-main-text">
-      Our customers have enjoyed unforgettable moments on our yachts. Don't just
-      take our word for it - read on to find out what they have to say about
-      their journey with us.
-    </p>
+    <div class="reviews-text-container">
+      <h2 class="reviews-title">
+        YachtJet take pride in providing the best possible service and
+        experience to our customers
+      </h2>
+      <p class="reviews-main-text">
+        Our customers have enjoyed unforgettable moments on our yachts. Don't
+        just take our word for it - read on to find out what they have to say
+        about their journey with us.
+      </p>
+    </div>
     <ul class="reviews-list">
       <li class="reviews-list-item">
         <div class="reviews-div">
-          <img src="" alt="John Wax" class="reviews-img" />
-          <h3 class="reviews-name">John Wax</h3>
-          <p class="reviews-text">
-            I rented the Lagoon 620 with my family for a week-long vacation and
-            it was the best decision ever. The yacht was spacious, comfortable,
-            and luxurious, and the crew took care of everything.
-          </p>
+          <picture>
+            <source
+              media="(min-width: 1280px)"
+              srcset="
+                ../img/desktop-img/reviews-john.jpg    1x,
+                ../img/desktop-img/reviews-john@2x.jpg 2x
+              "
+            />
+            <source
+              media="(min-width: 768px)"
+              srcset="
+                ../img/tablet-img/reviews-john.jpg    1x,
+                ../img/tablet-img/reviews-john@2x.jpg 2x
+              "
+            />
+            <source
+              media="(max-width: 767px)"
+              srcset="
+                ../img/mobile-img/reviews-john.jpg    1x,
+                ../img/mobile-img/reviews-john@2x.jpg 2x
+              "
+            />
+            <img
+              src="../img/mobile-img/reviews-john.jpg"
+              alt="John Wax"
+              class="reviews-img"
+            />
+          </picture>
+          <div class="reviews-h-p">
+            <h3 class="reviews-name">John Wax</h3>
+            <p class="reviews-text-f">
+              I rented the Lagoon 620 with my family for a week-long vacation
+              and it was the best decision ever. The yacht was spacious,
+              comfortable, and luxurious, and the crew took care of everything.
+            </p>
+          </div>
         </div>
       </li>
-      <li class="reviews-list-item">
+      <li class="reviews-list-item reviews-vr">
         <div class="reviews-div">
-          <img src="" alt="Victoria Romashenko" class="reviews-img" />
-          <h3 class="reviews-name">Victoria Romashenko</h3>
-          <p class="reviews-text">
-            The Sunseeker Manhattan 66 was the perfect choice for our romantic
-            getaway. The yacht was beautifully designed, with all the amenities
-            we needed, and the crew was attentive and friendly.
-          </p>
+          <picture>
+            <source
+              media="(min-width: 1280px)"
+              srcset="
+                ../img/desktop-img/reviews-victoria.jpg    1x,
+                ../img/desktop-img/reviews-victoria@2x.jpg 2x
+              "
+            />
+            <source
+              media="(min-width: 768px)"
+              srcset="
+                ../img/tablet-img/reviews-victoria.jpg    1x,
+                ../img/tablet-img/reviews-victoria@2x.jpg 2x
+              "
+            />
+            <img
+              src="../img/tablet-img/reviews-victoria.jpg"
+              alt="Victoria Romashenko"
+              class="reviews-img"
+            />
+          </picture>
+          <div class="reviews-h-p">
+            <h3 class="reviews-name">Victoria Romashenko</h3>
+            <p class="reviews-text-s">
+              The Sunseeker Manhattan 66 was the perfect choice for our romantic
+              getaway. The yacht was beautifully designed, with all the
+              amenities we needed, and the crew was attentive and friendly.
+            </p>
+          </div>
         </div>
       </li>
-      <li class="reviews-list-item">
+      <li class="reviews-list-item reviews-it">
         <div class="reviews-div">
-          <img src="" alt="Ihor Trachuk" class="reviews-img" />
-          <h3 class="reviews-name">Ihor Trachuk</h3>
-          <p class="reviews-text">
-            The Azimut 80 was the most luxurious yacht I've ever been on. The
-            cabins were spacious and elegant, and the outdoor areas were perfect
-            for relaxing and entertaining. Worth every penny!
-          </p>
+          <picture>
+            <source
+              media="(min-width: 1280px)"
+              srcset="
+                ../img/desktop-img/reviews-trachuk.jpg    1x,
+                ../img/desktop-img/reviews-trachuk@2x.jpg 2x
+              "
+            />
+            <img
+              src="../img/desktop-img/reviews-trachuk.jpg"
+              alt="Ihor Trachuk"
+              class="reviews-img"
+            />
+          </picture>
+          <div class="reviews-h-p reviews-h-p-t">
+            <h3 class="reviews-name">Ihor Trachuk</h3>
+            <p class="reviews-text-t">
+              The Azimut 80 was the most luxurious yacht I've ever been on. The
+              cabins were spacious and elegant, and the outdoor areas were
+              perfect for relaxing and entertaining. Worth every penny!
+            </p>
+          </div>
         </div>
       </li>
     </ul>
