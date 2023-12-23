@@ -1,1 +1,1 @@
-import { querySelector, onclick } from './js/isOpen.js';
+import './js/isOpen.js';
