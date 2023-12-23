@@ -1,1 +1,1 @@
-import { usefulFunction } from './js/isOpen';
+import { querySelector, onclick } from './js/isOpen.js';
