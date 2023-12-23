@@ -1,12 +1,9 @@
 .about-us-section {
-  padding-left: 20px;
-  padding-right: 20px;
   width: 375px;
   display: flex;
   justify-content: center;
   margin-left: auto;
   margin-right: auto;
-  background-color: #0e1823;
 }
 
 .about-us-container {
@@ -66,15 +63,9 @@
 
 @media screen and (min-width: 768px) {
   .about-us-section {
-    padding-left: 32px;
-    padding-right: 32px;
     width: 768px;
   }
-  .about-us-section {
-    padding-left: 50px;
-    padding-right: 50px;
-    width: 1280px;
-  }
+
   .about-us-container {
     max-width: 704px;
     height: 950px;
