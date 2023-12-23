@@ -101,15 +101,14 @@ letter-spacing: -0.023em;
     .navigation{
         display: flex;
         gap: 8px;  
-        align-items: center;    
-            
+        align-items: center;                
     }
-    /* .heder_list{
-        padding: 19px 0;
+    /* .header-alain{
+        
     } */
-    .heder-link{
-padding: 15px 25px 15px 24px;
+    .heder-link{    
         /* color: #FBFBFB; */
+text-transform:uppercase;
 text-align: center;
 font-family: Inter;
 font-size: 9px;
@@ -117,9 +116,12 @@ font-style: normal;
 font-weight: 400;
 line-height: 0.12em;
 text-transform: uppercase;
+padding: 0%;
+padding: 15px 25px 15px 24px;
 background-color: rgba(27, 65, 75, 0.50);
 border-radius: 8px;
 transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+ 
     }
     .logo-nav{
         display: flex;
