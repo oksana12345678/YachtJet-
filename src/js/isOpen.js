@@ -1,8 +1,6 @@
-export function usefulFunction() {
-  document.getElementById('intro_btn').onclick = function () {
-    document.getElementById('menu').classList.add('is-open');
-  };
-  document.getElementById('close').onclick = function () {
-    document.getElementById('menu').classList.remove('is-open');
-  };
-}
+document.querySelector('#intro_btn').onclick = function () {
+  document.querySelector('#menu').classList.add('is-open');
+};
+document.querySelector('#close').onclick = function () {
+  document.querySelector('#menu').classList.remove('is-open');
+};
