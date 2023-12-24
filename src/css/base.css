@@ -3,6 +3,9 @@ body {
   color: #fbfbfb;
   background-color: #101420;
 }
+body._lock {
+  overflow: hidden;
+}
 input {
   outline: none;
 }
