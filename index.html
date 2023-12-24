@@ -17,7 +17,7 @@
     <title>YachtJet</title>
     
     <script type="module" crossorigin src="/YachtJet-/commonHelpers.js"></script>
-    <link rel="stylesheet" href="/YachtJet-/assets/index-e3a4cbe3.css">
+    <link rel="stylesheet" href="/YachtJet-/assets/index-f3f7c1e1.css">
   </head>
   <body>
     <header class="header">
@@ -29,19 +29,13 @@
 
       <ul class="navigation">
         <li class="heder_list">
-          <a data-goto="#about-us" href="#" class="heder-link accent-link"
-            >About</a
-          >
+          <a href="#about-us" class="heder-link accent-link">About</a>
         </li>
         <li class="heder_list">
-          <a data-goto="#yacht-catalog" href="#" class="heder-link accent-link"
-            >Yachts</a
-          >
+          <a href="#yacht-catalog" class="heder-link accent-link">Yachts</a>
         </li>
         <li class="heder_list">
-          <a data-goto="#reviews" href="#" class="heder-link accent-link"
-            >Reviews</a
-          >
+          <a href="#reviews" class="heder-link accent-link">Reviews</a>
         </li>
       </ul>
     </nav>
@@ -514,13 +508,22 @@
     <nav class="mobile-menu-navigation">
       <ul class="mobile-menu-list">
         <li class="mobile-menu-item menu-link-add-color">
-          <a class="mobile-menu-link" href="#about-us">ABOUT</a>
+          <a data-goto="#about-us" class="mobile-menu-link" href="#about-us"
+            >ABOUT</a
+          >
         </li>
         <li class="mobile-menu-item">
-          <a class="mobile-menu-link" href="#yacht-catalog">YACHTS</a>
+          <a
+            data-goto="#yacht-catalog"
+            class="mobile-menu-link"
+            href="#yacht-catalog"
+            >YACHTS</a
+          >
         </li>
         <li class="mobile-menu-item">
-          <a class="mobile-menu-link" href="#reviews">REVIEWS</a>
+          <a data-goto="#reviews" class="mobile-menu-link" href="#reviews"
+            >REVIEWS</a
+          >
         </li>
       </ul>
     </nav>
