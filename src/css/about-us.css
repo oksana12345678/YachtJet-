@@ -98,12 +98,28 @@
   .about-us-container {
     max-width: 1180px;
     height: 807px;
-    padding: 50px 0;
+    padding-top: 50px;
     justify-content: center;
-    gap: 150px;
+    column-gap: 190px;
+    row-gap: 100px;
     flex-shrink: 0;
     flex-direction: row;
     flex-wrap: wrap;
+  }
+  .about-us-title {
+    margin-left: 50px;
+  }
+
+  .about-us-text-content {
+    margin-right: 50px;
+    max-width: 354px;
+  }
+  .about-us-first-p {
+    text-align: left;
+    margin: 0;
+  }
+  .about-us-second-p {
+    margin: 0;
   }
   .about-us-img {
     width: 1180px;
