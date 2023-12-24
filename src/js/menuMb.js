@@ -1,0 +1,1 @@
+const menuLincks = document.querySelectorAll('#about-us[data-goto]')
