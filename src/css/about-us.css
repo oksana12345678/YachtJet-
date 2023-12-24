@@ -67,28 +67,30 @@
 
   .about-us-container {
     max-width: 704px;
+    align-items: flex-start;
     height: 950px;
-    padding: 50px 136px 244px 32px;
     padding-top: 50px;
     gap: 50px;
   }
   .about-us-title {
     max-width: 536px;
     font-size: 48px;
+    margin-left: 32px;
   }
   .about-us-first-p {
     max-width: 389px;
     font-size: 23px;
+    margin-left: 32px;
   }
   .about-us-second-p {
     max-width: 385px;
     font-size: 13px;
     line-height: 1.15;
+    margin-left: 32px;
   }
 
   .about-us-img {
     width: 704px;
-    margin-left: -32px;
   }
 }
 
@@ -96,7 +98,7 @@
   .about-us-container {
     max-width: 1180px;
     height: 807px;
-    padding: 50px 50px 415px 50px;
+    padding: 50px 0;
     justify-content: center;
     gap: 150px;
     flex-shrink: 0;
@@ -105,7 +107,5 @@
   }
   .about-us-img {
     width: 1180px;
-    margin-left: -50px;
-    margin-right: -50px;
   }
 }

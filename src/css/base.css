@@ -3,7 +3,17 @@ body {
   color: #fbfbfb;
   background-color: #101420;
 }
-
+input {
+  outline: none;
+}
+input:focus-within,
+textarea:focus-within {
+  border: 1px solid rgba(251, 251, 251, 0.5);
+}
+input:focus-within::placeholder,
+textarea:focus-within::placeholder {
+  color: rgba(251, 251, 251, 1);
+}
 .visually-hidden {
   position: absolute;
   width: 1px;
