@@ -1,14 +1,21 @@
 body {
   font-family: Inter, sans-serif;
   color: #fbfbfb;
+  background-color: #101420;
 }
-.hero,
-.about-us,
-.our-yachts,
-.advantages,
-.rent-a-yacht,
-.reviews {
-  background-color: #0e1823;
+body._lock {
+  overflow: hidden;
+}
+input {
+  outline: none;
+}
+input:focus-within,
+textarea:focus-within {
+  border: 1px solid rgba(251, 251, 251, 0.5);
+}
+input:focus-within::placeholder,
+textarea:focus-within::placeholder {
+  color: rgba(251, 251, 251, 1);
 }
 .visually-hidden {
   position: absolute;
