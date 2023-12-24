@@ -1,0 +1,127 @@
+.about-us-section {
+  width: 375px;
+  display: flex;
+  justify-content: center;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 100px;
+}
+
+.about-us-container {
+  border-radius: 24px;
+  background: #fbfbfb;
+  display: flex;
+  max-width: 335px;
+  height: 775px;
+  padding: 40px 0;
+  flex-direction: column;
+  align-items: center;
+  gap: 40px;
+}
+
+.about-us-title {
+  color: #1b414b;
+  font-family: Inter;
+  font-size: 28px;
+  font-weight: 500;
+  line-height: 1;
+  letter-spacing: 0.02em;
+  max-width: 295px;
+}
+
+.about-us-text-content {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.about-us-first-p {
+  color: #1b414b;
+  font-family: Inter;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 1;
+  letter-spacing: 0.02em;
+  max-width: 295px;
+}
+
+.about-us-second-p {
+  color: #040306;
+  font-family: Inter;
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 1.16;
+  letter-spacing: 0.02em;
+  opacity: 0.4;
+  max-width: 295px;
+}
+
+.about-us-img {
+  width: 335px;
+}
+
+@media screen and (min-width: 768px) {
+  .about-us-section {
+    width: 768px;
+  }
+
+  .about-us-container {
+    max-width: 704px;
+    align-items: flex-start;
+    height: 950px;
+    padding-top: 50px;
+    gap: 50px;
+  }
+  .about-us-title {
+    max-width: 536px;
+    font-size: 48px;
+    margin-left: 32px;
+  }
+  .about-us-first-p {
+    max-width: 389px;
+    font-size: 23px;
+    margin-left: 32px;
+  }
+  .about-us-second-p {
+    max-width: 385px;
+    font-size: 13px;
+    line-height: 1.15;
+    margin-left: 32px;
+  }
+
+  .about-us-img {
+    width: 704px;
+  }
+}
+
+@media screen and (min-width: 1280px) {
+  .about-us-container {
+    max-width: 1180px;
+    height: 807px;
+    padding-top: 50px;
+    justify-content: center;
+    column-gap: 190px;
+    row-gap: 100px;
+    flex-shrink: 0;
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
+  .about-us-title {
+    margin-left: 50px;
+  }
+
+  .about-us-text-content {
+    margin-right: 50px;
+    max-width: 354px;
+  }
+  .about-us-first-p {
+    text-align: left;
+    margin: 0;
+  }
+  .about-us-second-p {
+    margin: 0;
+  }
+  .about-us-img {
+    width: 1180px;
+  }
+}
