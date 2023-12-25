@@ -25,7 +25,7 @@
 }
 
 .reviews-title {
-  width: 335px;
+  max-width: 335px;
   text-align: center;
   font-size: 28px;
   font-style: normal;
@@ -35,7 +35,7 @@
 }
 
 .reviews-main-text {
-  width: 335px;
+  max-width: 335px;
   text-align: center;
   font-size: 12px;
   font-style: normal;
@@ -47,7 +47,7 @@
 
 .reviews-list {
   display: flex;
-  width: 335px;
+  max-width: 335px;
   align-items: flex-start;
   gap: 32px;
   /* margin-bottom: 80px; */
@@ -55,7 +55,7 @@
 
 .reviews-list-item {
   display: flex;
-  width: 335px;
+  max-width: 335px;
   height: 282px;
   padding: 32px 8px;
   flex-direction: column;
@@ -76,7 +76,7 @@
 
 .reviews-div {
   display: flex;
-  width: 319px;
+  max-width: 319px;
   flex-direction: column;
   align-items: center;
   gap: 24px;
@@ -129,7 +129,7 @@
     flex-direction: column;
     align-items: center;
     gap: 75px;
-    min-width: 768px;
+    max-width: 768px;
     margin-left: auto;
     margin-right: auto;
   }
@@ -139,14 +139,14 @@
   }
 
   .reviews-title {
-    width: 704px;
+    max-width: 704px;
     font-size: 48px;
     line-height: 1;
     letter-spacing: -0.02em;
   }
 
   .reviews-main-text {
-    width: 571px;
+    max-width: 571px;
     font-size: 14px;
     line-height: 1.28571;
     letter-spacing: -0.02em;
@@ -156,7 +156,7 @@
     display: flex;
     align-items: flex-start;
     gap: 32px;
-    width: 704px;
+    max-width: 704px;
   }
 
   .reviews-list-item {
@@ -213,7 +213,7 @@
   }
 
   .reviews-container {
-    min-width: 1280px;
+    max-width: 1280px;
     display: inline-flex;
     flex-direction: column;
     align-items: center;
@@ -227,14 +227,14 @@
   }
 
   .reviews-title {
-    width: 854px;
+    max-width: 854px;
     font-size: 48px;
     line-height: 1;
     letter-spacing: -0.02em;
   }
 
   .reviews-main-text {
-    width: 571px;
+    max-width: 571px;
     font-size: 14px;
     line-height: 1.28571;
     letter-spacing: -0.02em;
@@ -244,7 +244,7 @@
     display: flex;
     align-items: flex-start;
     gap: 26px;
-    width: 1060px;
+    max-width: 1060px;
   }
 
   .reviews-list-item {

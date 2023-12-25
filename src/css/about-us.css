@@ -1,5 +1,5 @@
 .about-us-section {
-  width: 375px;
+  max-width: 375px;
   display: flex;
   justify-content: center;
   margin-left: auto;
@@ -62,33 +62,35 @@
 
 @media screen and (min-width: 768px) {
   .about-us-section {
-    width: 768px;
+    max-width: 768px;
   }
 
   .about-us-container {
     max-width: 704px;
+    align-items: flex-start;
     height: 950px;
-    padding: 50px 136px 244px 32px;
     padding-top: 50px;
     gap: 50px;
   }
   .about-us-title {
     max-width: 536px;
     font-size: 48px;
+    margin-left: 32px;
   }
   .about-us-first-p {
     max-width: 389px;
     font-size: 23px;
+    margin-left: 32px;
   }
   .about-us-second-p {
     max-width: 385px;
     font-size: 13px;
     line-height: 1.15;
+    margin-left: 32px;
   }
 
   .about-us-img {
     width: 704px;
-    margin-left: -32px;
   }
 }
 
@@ -96,16 +98,30 @@
   .about-us-container {
     max-width: 1180px;
     height: 807px;
-    padding: 50px 50px 415px 50px;
+    padding-top: 50px;
     justify-content: center;
-    gap: 150px;
+    column-gap: 190px;
+    row-gap: 100px;
     flex-shrink: 0;
     flex-direction: row;
     flex-wrap: wrap;
   }
+  .about-us-title {
+    margin-left: 50px;
+  }
+
+  .about-us-text-content {
+    margin-right: 50px;
+    max-width: 354px;
+  }
+  .about-us-first-p {
+    text-align: left;
+    margin: 0;
+  }
+  .about-us-second-p {
+    margin: 0;
+  }
   .about-us-img {
     width: 1180px;
-    margin-left: -50px;
-    margin-right: -50px;
   }
 }
