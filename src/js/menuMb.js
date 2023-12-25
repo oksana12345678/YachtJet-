@@ -9,7 +9,7 @@ const LOCK_CLASS = '_lock';
 const IS_OPEN_CLASS = 'is-open';
 const MOBILE_MENU_LIST_CLASS = 'mobile-menu-list';
 const NAVIGATION_CLASS = 'navigation';
-const FOOTER_NAVIGATION_CLASS = 'footer-nav';
+const FOOTER_NAVIGATION_CLASS = 'footer-container-nav';
 
 const iconMenu = document.querySelector(INTRO_BTN_ID);
 const menuBody = document.querySelector(MENU_ID);
