@@ -10,6 +10,8 @@ const IS_OPEN_CLASS = 'is-open';
 const MOBILE_MENU_LIST_CLASS = 'mobile-menu-list';
 const NAVIGATION_CLASS = 'navigation';
 const FOOTER_NAVIGATION_CLASS = 'footer-container-nav';
+const HERO_BTN = 'hero';
+const OUR_BTN = 'our-yachts';
 
 const iconMenu = document.querySelector(INTRO_BTN_ID);
 const menuBody = document.querySelector(MENU_ID);
@@ -52,8 +54,10 @@ document.querySelector(CLOSE_ID).onclick = function () {
 const navClass = isMobile() ? MOBILE_MENU_LIST_CLASS : NAVIGATION_CLASS;
 const nav = document.querySelector(`.${navClass}`);
 const navFooter = document.querySelector(`.${FOOTER_NAVIGATION_CLASS}`);
+const heroBtn = document.querySelector(`.${HERO_BTN}`);
+const ourBtn = document.querySelector(`.${OUR_BTN}`);
 
-const navList = [nav, navFooter];
+const navList = [nav, navFooter, heroBtn, ourBtn];
 navList.forEach(target => {
   smoothScrollNav(target);
 });
