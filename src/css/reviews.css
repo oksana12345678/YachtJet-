@@ -56,7 +56,7 @@
 .reviews-list-item {
   display: flex;
   width: 335px;
-  height: 282px;
+
   padding: 32px 8px;
   flex-direction: column;
   align-items: center;
@@ -161,7 +161,7 @@
 
   .reviews-list-item {
     display: flex;
-    height: 282px;
+
     padding: 32px 8px;
     flex-direction: column;
     align-items: center;
@@ -249,7 +249,7 @@
 
   .reviews-list-item {
     display: flex;
-    height: 282px;
+
     padding: 32px 8px;
     flex-direction: column;
     align-items: center;
