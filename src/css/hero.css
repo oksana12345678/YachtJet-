@@ -11,7 +11,7 @@
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
-  max-width: 375px;
+
   margin-left: auto;
   margin-right: auto;
 }
@@ -38,7 +38,6 @@
       url(../img/tablet-img/hero-tablet.jpg);
     padding-top: 280px;
     padding-bottom: 215px;
-    max-width: 768px;
   }
 }
 
@@ -65,7 +64,6 @@
       url(../img/desktop-img/hero-desktop.jpg);
     padding-top: 235px;
     padding-bottom: 180px;
-    max-width: 1280px;
   }
 }
 
@@ -134,29 +132,27 @@
   }
 }
 
-.link-rental-yacht{
-    display: inline-flex;
-    padding: 14px 32px;
-    border-radius: 15px;
-    background: #1B414B;
-    align-self: center;
-    font-size: 14px;
-    line-height: 1.28;
-    letter-spacing: -.02em;
+.link-rental-yacht {
+  display: inline-flex;
+  padding: 14px 32px;
+  border-radius: 15px;
+  background: #1b414b;
+  align-self: center;
+  font-size: 14px;
+  line-height: 1.28;
+  letter-spacing: -0.02em;
+}
+
+@media (min-width: 768px) {
+  .link-rental-yacht {
+    padding: 16px 40px;
+    font-size: 18px;
+    line-height: 1.1;
   }
+}
 
-    @media (min-width: 768px){
-     .link-rental-yacht {
-       padding: 16px 40px;
-       font-size: 18px;
-       line-height: 1.1;
-       }
-   }
-
-   .link-rental-yacht:hover,
-   .link-rental-yacht:focus {
-    background: #FBFBFB;
-    color: #1B414B;
-   }
-
-
+.link-rental-yacht:hover,
+.link-rental-yacht:focus {
+  background: #fbfbfb;
+  color: #1b414b;
+}
