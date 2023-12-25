@@ -55,7 +55,7 @@
 
 .reviews-list-item {
   display: flex;
-  max-width: 335px;
+  width: 335px;
   height: 282px;
   padding: 32px 8px;
   flex-direction: column;
