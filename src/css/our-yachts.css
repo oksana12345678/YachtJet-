@@ -24,6 +24,7 @@
     display: flex;
     margin-left: auto;
     margin-right: auto;
+    margin-bottom: 40px;
 }
 
 .yachts-item {
@@ -31,7 +32,6 @@
     background-color: #FBFBFB;
     border-radius: 24px;
     padding: 16px;
-    margin-bottom: 40px;
 }
 
 .about-the-yacht {
@@ -95,6 +95,11 @@
     margin-bottom: 6px;
 }
 
+.left-text p:last-child,
+.right-text p:last-child {
+    margin-bottom: 0;
+}
+
 .benetti-item {
     display: none;
 }
@@ -137,11 +142,11 @@
 
     .yachts-list {
         gap: 32px;
+        margin-bottom: 50px;
     }
 
     .yachts-item {
         max-width: 336px;
-        margin-bottom: 50px;
     }
 
     .yacht-name {
