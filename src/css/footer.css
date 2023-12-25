@@ -11,6 +11,7 @@
 .footer-container {
   padding-left: 30px;
   padding-right: 30px;
+  margin: 0 auto;
 }
 
 .footer-nav {
@@ -90,6 +91,14 @@
   margin: 0 auto;
   margin-top: 40px;
 }
+
+@media screen and (width:320px) {
+    .footer-text-one {
+        width: 100%;
+    }
+}
+    
+
 
 .footer-text-two {
   display: flex;

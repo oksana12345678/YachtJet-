@@ -1,9 +1,11 @@
          /* ========= MOBILE ========== */
 
-   .rent-form-container {
+   .container-wrapper {
         max-width: 335px;
         margin: 0 auto;
-        padding-top: 80px;
+        display: flex;
+            flex-direction: column;
+            row-gap: 80px;
     }
 
     .rent-yacht-title {
@@ -15,6 +17,10 @@
         /* 100% */
         letter-spacing: -0.02em;
         margin-bottom: 40px;
+    }
+
+    .rent-form {
+        width: 100%;
     }
 
     .rent-yacht-input-wrapper {
@@ -76,7 +82,6 @@
         min-width: 122px;
         height: 46px;
         padding: 14px 44px;
-        margin: auto;
         border: none;
         color: #FBFBFB;
         font-size: 14px;
@@ -88,15 +93,14 @@
         align-items: center;
         border-radius: 15px;
         background: #1B414B;
-        margin-bottom: 80px;
     }
 
 .rent-pict {
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 335px;
-    height: 412px;
+    max-width: 335px;
+    max-height: 412px;
     flex-shrink: 0;
     background: url(<path-to-image>) lightgray;
     background-position: center center;
@@ -105,48 +109,29 @@
     overflow: hidden;
     outline: transparent;
     margin: 0 auto;
-
-}
-        /* ========= TABLET ========== */
-
- @media screen and (min-width: 768px) {
-
-    .rent-form-container {
-max-width: 472px;
-padding-top: 150px;
- }
-
- .rent-yacht-title {
-font-size: 48px;
- }
-
- .rent-yacht-input {
- width: 100%;
-resize: none;
- height: 54px;
- font-size: 14px;
-line-height: 1.28;
- }
-
-.rent-yacht-textarea-wrapper {
-    margin-bottom: 50px;
 }
 
-.rent-yacht-textarea {
+
+/* ========= TABLET ========== */
+
+@media screen and (min-width: 768px) {
+  .container-wrapper {
+    max-width: 704px;
+    row-gap: 100px;
+    align-items: center;
+  }
+
+  .rent-yacht-title {
+    font-size: 48px;
+  }
+
+  .rent-yacht-input {
     width: 100%;
     resize: none;
-width: 472px;
-height: 116px;
-font-size: 14px;
-line-height: 1.28;
-color: rgba(251, 251, 251, 0.40);
-    }
-
-.rent-yacht-textarea::placeholder {
+    height: 54px;
     font-size: 14px;
     line-height: 1.28;
-    color: rgba(251, 251, 251, 0.40);
-}
+  }
 
 .button-rent-form {
 min-width: 194px;
@@ -154,41 +139,60 @@ height: 56px;
 padding: 18px 75px;
 font-size: 18px;
 line-height: 1.2;
-margin-bottom: 100px;
                 }
 
-.rent-pict {
-    width: 704px;
-    height: 100%;
-    margin: 0 auto;
-}
- }
+  .rent-yacht-textarea {
+    width: 100%;
+    resize: none;
+    width: 472px;
+    height: 116px;
+    font-size: 14px;
+    line-height: 1.28;
+    color: rgba(251, 251, 251, 0.4);
+  }
 
-          /* ========= DESKTOP ========== */
+  .rent-yacht-textarea::placeholder {
+    font-size: 14px;
+    line-height: 1.28;
+    color: rgba(251, 251, 251, 0.4);
+  }
+
+  .button-rent-form {
+    min-width: 194px;
+    height: 56px;
+    padding: 18px 75px;
+    font-size: 18px;
+    line-height: 1.2;
+  }
+
+  .rent-pict {
+    max-width: 704px;
+height: 100%;
+margin: 0 auto;
+  }
+}
+
+/* ========= DESKTOP ========== */
 
 @media only screen and (min-width: 1280px) {
-   
- .rent-a-yacht {
-    display: flex;
-    flex-direction: row-reverse;
- }
- 
-.rent-form-container {
-        max-width: 472px;
-        padding-top: 75px;
-    }
 
+  .rent-a-yacht {
+    padding-top: 75px;
+  }
+  
+  .container-wrapper {
+    max-width: 472px;
+gap: 50px;
+display: flex;
+flex-direction: row-reverse;
+justify-content: center;
+align-items: flex-start;
+  }
 
-.rent-pict {
-        width: 658px;
-        margin-left: 50px;
-        margin-top: 75px;
-}
-
-.button-rent-form {
-    margin: 0 auto;
-}
-
+  .rent-pict {
+    max-width: 658px;
+    max-height: 534px;
+  }
 
 .button-rent-form:hover,
 .button-rent-form:focus {

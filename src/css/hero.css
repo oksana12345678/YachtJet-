@@ -1,5 +1,6 @@
 .hero {
-  padding: 198px 0;
+  padding-top: 260px;
+  padding-bottom: 242px;
   background-image: linear-gradient(
       to top,
 
@@ -10,11 +11,15 @@
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
-  max-width: 375px;
+
   margin-left: auto;
   margin-right: auto;
 }
-
+.hero-container {
+  padding: 0 20px;
+  display: flex;
+  flex-direction: column;
+}
 @media (min-resolution: 192dpi) and (min-width: 375px) {
   .hero {
     background-image: linear-gradient(to top, #11131f, #11131f48, #11131f00),
@@ -31,8 +36,8 @@
         rgba(17, 19, 31, 0)
       ),
       url(../img/tablet-img/hero-tablet.jpg);
-    padding: 219px 0;
-    max-width: 768px;
+    padding-top: 280px;
+    padding-bottom: 215px;
   }
 }
 
@@ -57,8 +62,8 @@
         rgba(17, 19, 31, 0)
       ),
       url(../img/desktop-img/hero-desktop.jpg);
-    padding: 155px 0;
-    max-width: 1280px;
+    padding-top: 235px;
+    padding-bottom: 180px;
   }
 }
 
@@ -79,7 +84,7 @@
   font-size: 32px;
   font-weight: 500;
   line-height: 1;
-  letter-spacing: 0.01em;
+  letter-spacing: -.02em;
   max-width: 335px;
   margin-left: auto;
   margin-right: auto;
@@ -87,6 +92,9 @@
 }
 
 @media screen and (min-width: 768px) {
+  .hero-container {
+    padding: 0 32px;
+  }
   .hero-title {
     font-size: 70px;
     max-width: 704px;
@@ -95,9 +103,12 @@
 }
 
 @media screen and (min-width: 1280px) {
+  .hero-container {
+    padding: 0 116px;
+  }
   .hero-title {
     font-size: 80px;
-    max-width: 1001px;
+    max-width: 1050px;
     margin-bottom: 48px;
   }
 }
@@ -121,28 +132,27 @@
   }
 }
 
-.hero-btn {
-  color: #fbfbfb;
-  font-size: 18px;
-  font-weight: 500;
-  line-height: 1.1;
-  letter-spacing: 0.04em;
-  padding: 16px 40px;
-  display: block;
-  justify-content: center;
-  align-items: center;
-  margin-left: auto;
-  margin-right: auto;
-  min-width: 179px;
-  height: 52px;
-  border: none;
+.link-rental-yacht {
+  display: inline-flex;
+  padding: 14px 32px;
   border-radius: 15px;
   background: #1b414b;
-  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  align-self: center;
+  font-size: 14px;
+  line-height: 1.28;
+  letter-spacing: -0.02em;
 }
 
-.hero-btn:hover,
-.hero-btn:focus {
+@media (min-width: 768px) {
+  .link-rental-yacht {
+    padding: 16px 40px;
+    font-size: 18px;
+    line-height: 1.1;
+  }
+}
+
+.link-rental-yacht:hover,
+.link-rental-yacht:focus {
   background: #fbfbfb;
   color: #1b414b;
 }
