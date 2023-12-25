@@ -88,6 +88,17 @@ margin: 0 auto;
 margin-top: 40px;
 }
 
+@media screen and (max-width:375px) {
+.footer-text-one {
+    width: 260px;
+}
+
+.footer-nav-section {
+    margin: 0 auto;
+}
+    
+}
+
 .footer-text-two {
     display: flex;
     gap: 20px;
