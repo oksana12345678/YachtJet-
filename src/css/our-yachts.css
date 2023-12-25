@@ -194,4 +194,10 @@
     .yacht-name {
         width: 177px;
     }
+
+    .link-rental:focus,
+    .link-rental:hover {
+        background-color:#FBFBFB;
+        color: #1B414B;
+    }
 }
