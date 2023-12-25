@@ -3,7 +3,9 @@
    .rent-form-container {
         max-width: 335px;
         margin: 0 auto;
-        padding-top: 80px;
+        display: flex;
+            flex-direction: column;
+            row-gap: 80px;
     }
 
     .rent-yacht-title {
@@ -15,6 +17,10 @@
         /* 100% */
         letter-spacing: -0.02em;
         margin-bottom: 40px;
+    }
+
+    .rent-form {
+        width: 100%;
     }
 
     .rent-yacht-input-wrapper {
@@ -76,7 +82,6 @@
         min-width: 122px;
         height: 46px;
         padding: 14px 44px;
-        margin: auto;
         border: none;
         color: #FBFBFB;
         font-size: 14px;
@@ -88,7 +93,6 @@
         align-items: center;
         border-radius: 15px;
         background: #1B414B;
-        margin-bottom: 80px;
     }
 
 .rent-pict {
@@ -154,7 +158,6 @@ height: 56px;
 padding: 18px 75px;
 font-size: 18px;
 line-height: 1.2;
-margin-bottom: 100px;
                 }
 
 .rent-pict {
@@ -185,9 +188,6 @@ margin-bottom: 100px;
         margin-top: 75px;
 }
 
-.button-rent-form {
-    margin: 0 auto;
-}
 
 
 .button-rent-form:hover,
