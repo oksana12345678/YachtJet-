@@ -90,7 +90,7 @@ margin-top: 40px;
 
 @media screen and (max-width:375px) {
 .footer-text-one {
-    width: 260px;
+    width: 100%;
 }
 
 .footer-nav-section {
