@@ -9,6 +9,7 @@ const LOCK_CLASS = '_lock';
 const IS_OPEN_CLASS = 'is-open';
 const MOBILE_MENU_LIST_CLASS = 'mobile-menu-list';
 const NAVIGATION_CLASS = 'navigation';
+const FOOTER_NAVIGATION_CLASS = 'footer-nav';
 
 const iconMenu = document.querySelector(INTRO_BTN_ID);
 const menuBody = document.querySelector(MENU_ID);
@@ -50,39 +51,49 @@ document.querySelector(CLOSE_ID).onclick = function () {
 
 const navClass = isMobile() ? MOBILE_MENU_LIST_CLASS : NAVIGATION_CLASS;
 const nav = document.querySelector(`.${navClass}`);
+const navFooter = document.querySelector(`.${FOOTER_NAVIGATION_CLASS}`);
 
-if (nav) {
-  nav.addEventListener('click', e => {
-    e.preventDefault();
-    const {
-      target,
-      target: { href, localName, dataset: { goto = null } = {} } = {},
-    } = e;
-    switch (localName) {
-      case 'li':
-        const {
-          href: linkHref = null,
-          dataset: { goto: linkGoto = null } = {},
-        } = target.querySelector('a');
-        const liAnchor = linkHref ? linkHref.split('/').pop() : linkGoto;
-        if (liAnchor) onMenuLinkClick(liAnchor);
-        break;
-      case 'a':
-        const aAnchor = href ? href.split('/').pop() : goto;
-        if (aAnchor) onMenuLinkClick(aAnchor);
-        break;
-      default:
-        break;
-    }
-  });
+const navList = [nav, navFooter];
+navList.forEach(target => {
+  smoothScrollNav(target);
+});
+
+function smoothScrollNav(target) {
+  if (target) {
+    target.addEventListener('click', e => {
+      e.preventDefault();
+      const {
+        target,
+        target: { href, localName, dataset: { goto = null } = {} } = {},
+      } = e;
+      switch (localName) {
+        case 'li':
+          const {
+            href: linkHref = null,
+            dataset: { goto: linkGoto = null } = {},
+          } = target.querySelector('a');
+          const liAnchor = linkHref ? linkHref.split('/').pop() : linkGoto;
+          if (liAnchor) onMenuLinkClick(liAnchor);
+          break;
+        case 'a':
+          const aAnchor = href ? href.split('/').pop() : goto;
+          if (aAnchor) onMenuLinkClick(aAnchor);
+          break;
+        default:
+          break;
+      }
+    });
+  }
 }
 
 function onMenuLinkClick(goto) {
   if (document.querySelector(goto)) {
     const gotoBlock = document.querySelector(goto);
-    const gotoBlockValue = gotoBlock.getBoundingClientRect().top;
+    const gotoBlockValue =
+      window.scrollY + gotoBlock.getBoundingClientRect().top;
+    const menu = document.querySelector(MENU_ID);
 
-    if (menuBody.classList.contains(IS_OPEN_CLASS)) {
+    if (menu.classList.contains(IS_OPEN_CLASS)) {
       const menuBodyAction = [
         {
           el: document.body,
@@ -95,7 +106,7 @@ function onMenuLinkClick(goto) {
           act: 'remove',
         },
         {
-          el: menuBody,
+          el: menu,
           cls: IS_OPEN_CLASS,
           act: 'remove',
         },

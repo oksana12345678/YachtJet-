@@ -1,5 +1,6 @@
 export const isMobile = () => {
-  const mobileRegex =
-    /Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i;
-  return mobileRegex.test(navigator.userAgent);
+  // const mobileRegex =
+  //   /Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i;
+  // return mobileRegex.test(navigator.userAgent);
+  return window.innerWidth < 768;
 };
