@@ -88,16 +88,13 @@ margin: 0 auto;
 margin-top: 40px;
 }
 
-@media screen and (max-width:375px) {
-.footer-text-one {
-    width: 100%;
-}
-
-.footer-nav-section {
-    margin: 0 auto;
+@media screen and (width:320px) {
+    .footer-text-one {
+        width: 100%;
+    }
 }
     
-}
+
 
 .footer-text-two {
     display: flex;
