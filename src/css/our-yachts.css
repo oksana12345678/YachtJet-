@@ -1,203 +1,204 @@
 .our-yachts {
-    padding: 40px 0;
+  padding: 40px 0;
 }
 
 .container-our-yachts {
-    display: flex;
-    flex-direction: column;
-    padding: 0 20px;
+  display: flex;
+  flex-direction: column;
+  padding: 0 20px;
 }
 
 .title-our-yachts {
-    max-width: 319px;
-    text-align: center;
-    font-size: 28px;
-    font-weight: 500;
-    line-height: 1;
-    letter-spacing: -0.02em;
-    margin-bottom: 40px;
-    margin-left: auto;
-    margin-right: auto;
+  max-width: 319px;
+  text-align: center;
+  font-size: 28px;
+  font-weight: 500;
+  line-height: 1;
+  letter-spacing: -0.02em;
+  margin-bottom: 40px;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .yachts-list {
-    display: flex;
-    margin-left: auto;
-    margin-right: auto;
-    margin-bottom: 40px;
+  display: flex;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 40px;
 }
 
 .yachts-item {
-    max-width: 334px;
-    background-color: #FBFBFB;
-    border-radius: 24px;
-    padding: 16px;
+  max-width: 334px;
+  background-color: #fbfbfb;
+  border-radius: 24px;
+  padding: 16px;
 }
 
 .about-the-yacht {
-    padding: 32px 16px 16px;
+  padding: 32px 16px 16px;
 }
 
 .title-about-the-yacht {
-    position: relative;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    padding-bottom: 16px;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-bottom: 16px;
 }
 
 .title-about-the-yacht::after {
-    content: "";
-    height: 1px;
-    position: absolute;
-    left: 0;
-    right: 0;
-    bottom: 0;
-    width: 100%;
-    background-color: rgba(4, 3, 6, 0.10);
+  content: '';
+  height: 1px;
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: rgba(4, 3, 6, 0.1);
 }
 
 .yacht-name {
-    color: #1B414B;
-    font-size: 14px;
-    font-weight: 500;
-    line-height: 1.18;
-    letter-spacing: -0.045em;
-    text-transform: uppercase;
+  color: #1b414b;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 1.18;
+  letter-spacing: -0.045em;
+  text-transform: uppercase;
 }
 
 .yacht-segment {
-    color: #040306;
-    font-size: 12px;
-    line-height: 1, 16;
-    letter-spacing: 0, 03em;
-    text-transform: uppercase;
-    opacity: 0.4;
+  color: #040306;
+  font-size: 12px;
+  line-height: 1, 16;
+  letter-spacing: 0, 03em;
+  text-transform: uppercase;
+  opacity: 0.4;
 }
 
 .technical-data {
-    display: flex;
-    justify-content: space-between;
-    padding-top: 16px;
-    color: #040306;
-    font-size: 14px;
-    line-height: 1.18;
-    letter-spacing: 0, 03em;
+  display: flex;
+  justify-content: space-between;
+  padding-top: 16px;
+  color: #040306;
+  font-size: 14px;
+  line-height: 1.18;
+  letter-spacing: 0, 03em;
 }
 
 .left-text {
-    text-transform: uppercase;
-    opacity: 0.4;
+  text-transform: uppercase;
+  opacity: 0.4;
 }
 
 .left-text p,
 .right-text p {
-    margin-bottom: 6px;
+  margin-bottom: 6px;
 }
 
 .left-text p:last-child,
 .right-text p:last-child {
-    margin-bottom: 0;
+  margin-bottom: 0;
 }
 
 .benetti-item {
-    display: none;
+  display: none;
 }
 
 .belle-item {
-    display: none;
+  display: none;
 }
 
 .link-rental {
-    display: inline-flex;
-    padding: 14px 32px;
-    border-radius: 15px;
-    align-self: center;
-    font-size: 14px;
-    line-height: 1.28;
-    letter-spacing: -0.02em;
-    border: 1px solid rgba(251, 251, 251, 0.35);
+  display: inline-flex;
+  padding: 14px 32px;
+  border-radius: 15px;
+  align-self: center;
+  font-size: 14px;
+  line-height: 1.28;
+  letter-spacing: -0.02em;
+  border: 1px solid rgba(251, 251, 251, 0.35);
+  transition: all 250ms linear;
 }
 
 /*------------- @MEDIA -------------*/
 
 @media (min-width: 768px) {
-    .benetti-item {
-        display: list-item;
-    }
+  .benetti-item {
+    display: list-item;
+  }
 
-    .our-yachts {
-        padding: 75px 0;
-    }
+  .our-yachts {
+    padding: 75px 0;
+  }
 
-    .container-our-yachts {
-        padding: 0 32px;
-    }
+  .container-our-yachts {
+    padding: 0 32px;
+  }
 
-    .title-our-yachts {
-        max-width: 645px;
-        font-size: 48px;
-        margin-bottom: 75px;
-    }
+  .title-our-yachts {
+    max-width: 645px;
+    font-size: 48px;
+    margin-bottom: 75px;
+  }
 
-    .yachts-list {
-        gap: 32px;
-        margin-bottom: 50px;
-    }
+  .yachts-list {
+    gap: 32px;
+    margin-bottom: 50px;
+  }
 
-    .yachts-item {
-        max-width: 336px;
-    }
+  .yachts-item {
+    max-width: 336px;
+  }
 
-    .yacht-name {
-        width: 147px;
-        font-size: 16px;
-        line-height: 1.2;
-        white-space: nowrap;
-        overflow: hidden;
-        text-overflow: ellipsis;
-    }
+  .yacht-name {
+    width: 147px;
+    font-size: 16px;
+    line-height: 1.2;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+  }
 
-    .yacht-segment {
-        font-size: 13px;
-        line-height: 1, 18;
-    }
+  .yacht-segment {
+    font-size: 13px;
+    line-height: 1, 18;
+  }
 
-    .link-rental {
-        padding: 16px 40px;
-        font-size: 18px;
-        line-height: 1.1;
-    }
+  .link-rental {
+    padding: 16px 40px;
+    font-size: 18px;
+    line-height: 1.1;
+  }
 }
 
 @media (min-width: 1280px) {
-    .belle-item {
-        display: list-item;
-    }
+  .belle-item {
+    display: list-item;
+  }
 
-    .container-our-yachts {
-        padding: 0 50px;
-    }
+  .container-our-yachts {
+    padding: 0 50px;
+  }
 
-    .title-our-yachts {
-        max-width: 714px;
-    }
+  .title-our-yachts {
+    max-width: 714px;
+  }
 
-    .yachts-list {
-        gap: 25px;
-    }
+  .yachts-list {
+    gap: 25px;
+  }
 
-    .yachts-item {
-        max-width: 377px;
-    }
+  .yachts-item {
+    max-width: 377px;
+  }
 
-    .yacht-name {
-        width: 177px;
-    }
+  .yacht-name {
+    width: 177px;
+  }
 
-    .link-rental:focus,
-    .link-rental:hover {
-        background-color:#FBFBFB;
-        color: #1B414B;
-    }
+  .link-rental:focus,
+  .link-rental:hover {
+    background-color: #fbfbfb;
+    color: #1b414b;
+  }
 }

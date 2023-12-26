@@ -84,7 +84,7 @@
   font-size: 32px;
   font-weight: 500;
   line-height: 1;
-  letter-spacing: -.02em;
+  letter-spacing: -0.02em;
   max-width: 335px;
   margin-left: auto;
   margin-right: auto;
@@ -141,6 +141,7 @@
   font-size: 14px;
   line-height: 1.28;
   letter-spacing: -0.02em;
+  transition: all 250ms linear;
 }
 
 @media (min-width: 768px) {
