@@ -34,3 +34,6 @@ is-open {
   visibility: visible;
   pointer-events: auto;
 }
+main {
+  overflow-x: clip;
+}
