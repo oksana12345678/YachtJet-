@@ -72,7 +72,7 @@
   .about-us-container {
     max-width: 704px;
     align-items: flex-start;
-    height: 950px;
+    /* height: 950px; */
     padding-top: 50px;
     gap: 50px;
   }
@@ -102,7 +102,7 @@
 @media screen and (min-width: 1280px) {
   .about-us-container {
     max-width: 1180px;
-    height: 807px;
+    /* height: 807px; */
     padding-top: 50px;
     justify-content: center;
     column-gap: 190px;
