@@ -29,7 +29,7 @@
   font-size: 28px;
   font-weight: 500;
   line-height: 1;
-  letter-spacing: 0.02em;
+  letter-spacing: -0.02em;
   max-width: 295px;
 }
 
@@ -45,7 +45,7 @@
   font-size: 18px;
   font-weight: 400;
   line-height: 1;
-  letter-spacing: 0.02em;
+  letter-spacing: -0.04em;
   max-width: 295px;
 }
 
@@ -55,7 +55,7 @@
   font-size: 12px;
   font-weight: 400;
   line-height: 1.16;
-  letter-spacing: 0.02em;
+  letter-spacing: -0.06em;
   opacity: 0.4;
   max-width: 295px;
 }
