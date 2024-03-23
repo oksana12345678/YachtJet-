@@ -2,6 +2,7 @@ body {
   font-family: Inter, sans-serif;
   color: #fbfbfb;
   background-color: #101420;
+  margin: 0;
 }
 body._lock {
   overflow: hidden;
@@ -33,6 +34,7 @@ is-open {
   opacity: 1;
   visibility: visible;
   pointer-events: auto;
+  display: flex;
 }
 main {
   overflow-x: clip;
