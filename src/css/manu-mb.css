@@ -39,11 +39,12 @@
   border-radius: 8px;
   border: 1px solid #fbfbfb;
   background: #fbfbfb;
-  padding-top: 12px;
-  padding-bottom: 13px;
+  /* padding-top: 12px; */
+  /* padding-bottom: 13px; */
   padding-left: 20px;
-  padding-right: 20px;
+  /* padding-right: 20px; */
   margin-bottom: auto;
+  align-items: center;
 }
 
 .mobile-menu-logo {
@@ -84,7 +85,7 @@
   background-color: rgba(27, 65, 75, 0.5);
 }
 
-.menu-link-add-color {
+.mobile-menu-item:active {
   background-color: #1b414b;
 }
 .mobile-menu-item {

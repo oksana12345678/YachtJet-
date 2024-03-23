@@ -67,7 +67,7 @@
 
 @media screen and (min-width: 375px) {
   .header {
-    width: 375px;
+    min-width: 335px;
   }
 }
 /* 768 tablet============   */
