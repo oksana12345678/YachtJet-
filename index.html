@@ -8,7 +8,7 @@
       name="description"
       content="YachtJet explore the High Seas with Our Luxury Yacht Rentals"
     />
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <!-- <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
       href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500&display=swap"
@@ -17,11 +17,12 @@
     <link
       rel="preconnect"
       href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/2.0.0/modern-normalize.min.css"
-    />
+    /> -->
     <title>YachtJet</title>
     
     <script type="module" crossorigin src="/YachtJet-/commonHelpers.js"></script>
-    <link rel="stylesheet" href="/YachtJet-/assets/index-f477b00e.css">
+    <link rel="stylesheet" href="/YachtJet-/assets/index-7360f52c.css">
+    <link rel="stylesheet" href="/YachtJet-/assets/vendor-b942fcb9.css">
   </head>
   <body>
     <header class="header">
@@ -542,7 +543,83 @@
   </div>
 </footer>
 
-    ENOENT: no such file or directory, open '/home/runner/work/YachtJet-/YachtJet-/src/partials/manu-mb.html'
+    <div class="mobile-menu-wrapper" id="menu">
+  <div class="container mobile-menu-container">
+    <div class="mobile-menu-top">
+      <a class="mobile-menu-logo" href="./manu-mb.html">yachtjet</a>
+      <button
+        class="mobile-menu-close-btn"
+        id="close"
+        type="button"
+        aria-label="close"
+      >
+        <svg class="mobile-menu-close-btn-icon" width="28" height="28">
+          <use href="/YachtJet-/assets/sprite-cdf8d13d.svg#close-mobile-icon"></use>
+        </svg>
+      </button>
+    </div>
+    <nav class="mobile-menu-navigation">
+      <ul class="mobile-menu-list">
+        <li class="mobile-menu-item menu-link-add-color">
+          <a data-goto="#about-us" class="mobile-menu-link" href="#about-us"
+            >ABOUT</a
+          >
+        </li>
+        <li class="mobile-menu-item">
+          <a
+            data-goto="#yacht-catalog"
+            class="mobile-menu-link"
+            href="#yacht-catalog"
+            >YACHTS</a
+          >
+        </li>
+        <li class="mobile-menu-item">
+          <a data-goto="#reviews" class="mobile-menu-link" href="#reviews"
+            >REVIEWS</a
+          >
+        </li>
+      </ul>
+    </nav>
+    <ul class="mobile-social-list">
+      <li class="mobile-social-list-item">
+        <a
+          href="https://www.instagram.com/goitclub/"
+          rel="noopener"
+          target="_blank"
+          class="mobile-social-list-link"
+          ><svg class="mobile-social-list-icon" width="24" height="24">
+            <use href="/YachtJet-/assets/sprite-cdf8d13d.svg#instagram-icon"></use>
+          </svg>
+        </a>
+      </li>
+      <li class="mobile-social-list-item">
+        <a
+          href="https://www.youtube.com/c/GoIT"
+          target="_blank"
+          class="mobile-social-list-link"
+          rel="noopener"
+        >
+          <svg class="mobile-social-list-icon" width="24" height="24">
+            <use href="/YachtJet-/assets/sprite-cdf8d13d.svg#youtube-icon"></use>
+          </svg>
+        </a>
+      </li>
+      <li class="mobile-social-list-item">
+        <a
+          href="https://www.facebook.com/goITclub/"
+          target="_blank"
+          class="mobile-social-list-link"
+          rel="noopener"
+        >
+          <svg class="mobile-social-list-icon" width="24" height="24">
+            <use href="/YachtJet-/assets/sprite-cdf8d13d.svg#facebook-icon"></use>
+          </svg>
+        </a>
+      </li>
+    </ul>
+  </div>
+</div>
+
 
     
   </body>
