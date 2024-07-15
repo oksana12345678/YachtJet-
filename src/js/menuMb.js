@@ -41,7 +41,6 @@ if (iconMenu) {
     });
   });
 }
-
 document.querySelector(CLOSE_ID).onclick = function () {
   const menu = document.querySelector(MENU_ID);
   classListHelper({
